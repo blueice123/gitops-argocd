@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mynginx
-  namespace: name-test
+  namespace: test-namespace
 spec:
   replicas: 1
   selector:
